@@ -1,0 +1,32 @@
+{
+
+    "name": "gwannon/phpactivecampaignapi",
+    "type": "library",
+    "description": "PHP Class to work with Active Campaign API",
+    "keywords": [
+        "gwannon",
+        "activecampaign",
+        "api"
+    ],
+    "homepage": "https://github.com/gwannon/PHPActiveCampaignAPI",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Jorge Monclús",
+            "email": "monclus.jorge@gmail.com",
+            "homepage": "https://github.com/gwannon/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gwannon\\PHPActiveCampaignAPI\\": "src"
+        }
+    }
+
+}
